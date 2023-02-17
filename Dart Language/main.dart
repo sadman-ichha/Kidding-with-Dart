@@ -1,3 +1,3 @@
-void main(){
-  Clear(),
+void main() {
+  print('Sadman');
 }
