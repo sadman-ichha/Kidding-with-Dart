@@ -1,7 +1,7 @@
 void main() {
-  // Decision Making Statement
-/* In Dart, decision-making can be achieved using the if-else statement and the switch statement.
-*/
+// Decision Making Statement
+
+/* In Dart, decision-making can be achieved using the if-else statement and the switch statement.*/
 //if-else statement
   int age = 26;
   if (age < 18) {
