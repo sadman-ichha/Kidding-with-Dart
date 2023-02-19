@@ -4,5 +4,6 @@ void main() {
     "age": 50,
     "identity": "Student",
   };
-  print(myMap);
+  var result = myMap.containsKey("Name");
+  print(result);
 }
