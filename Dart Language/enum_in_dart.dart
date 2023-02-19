@@ -1,5 +1,5 @@
 void main() {
-  final orderMethod = PaymentMethod.paypal;
+  final orderMethod = PaymentMethod.Bkash;
   switch (orderMethod) {
     case PaymentMethod.Bkash:
       print("Paying with Bkash");
