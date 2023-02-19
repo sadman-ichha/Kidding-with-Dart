@@ -5,6 +5,9 @@ void main() {
   // var result = myList.last;
   // var result = myList.single;
   //  myList.add(35);
-  var result = myList.map((e) => print("I'm a ListMap"));
-  print(result);
+  // var result = myList.map((e) => print("I'm a ListMap"));
+  // myList.insert(0, 00);
+  //repleace  myList[2] = 14;
+    myList.replaceRange(1, 2, [9,14]);
+  print(myList);
 }
