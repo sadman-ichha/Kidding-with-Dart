@@ -1,5 +1,6 @@
 void main() {
-  optionalNamedFunc(1, 2, 3, d: 4, e: 5);
+  // higherOrderFunc()();
+  anotherFunc(addTwoNum);
 }
 
 // Define a Function / normal function
@@ -24,7 +25,7 @@ parameterizedFunc(int num1, int num2) {
 }
 
 // optional positional parameter []
- optionalPositionalFunc(a, b, c, [d, e]) {
+optionalPositionalFunc(a, b, c, [d, e]) {
   print(a);
   print(b);
   print(c);
@@ -41,4 +42,16 @@ optionalNamedFunc(a, b, c, {d, e}) {
   print(e);
 }
 
-  // higher order function
+// higher order function
+
+higherOrderFunc() {
+  return () => print(10 + 20);
+}
+
+anotherFunc(Function func) {
+  func();
+}
+
+addTwoNum() {
+  return print(50 + 50);
+}
