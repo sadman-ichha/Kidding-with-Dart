@@ -32,8 +32,15 @@ void main() {
     {"name": "Oggy"}
   ];
   forEachList.forEach((element) {
-    print("forEach Loop result: ${element["name"]}");
+    print("forEach Loop result:  ${element["name"]}");
   });
   // while
+  int i = 0;
+  int value = 10;
+  while (i <= value) {
+    print(i);
+    i++;
+  }
   // do while
+  
 }
