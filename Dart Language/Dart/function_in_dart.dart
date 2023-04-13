@@ -55,3 +55,12 @@ anotherFunc(Function func) {
 addTwoNum() {
   return print(50 + 50);
 }
+
+// bool type funcion
+bool myBoolfunc() {
+  return true;
+}
+//Map type funcion
+Map myMapFunc() {
+  return {};
+}
