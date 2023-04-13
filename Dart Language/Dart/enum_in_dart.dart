@@ -25,10 +25,4 @@ void main() {
   }
 }
 
-enum PaymentMethod {
-  Bkash,
-  Nagad,
-  creditCard,
-  paypal,
-  applePay,
-}
+enum PaymentMethod { Bkash, Nagad, creditCard, paypal, applePay }
