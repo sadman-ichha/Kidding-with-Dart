@@ -60,7 +60,14 @@ addTwoNum() {
 bool myBoolfunc() {
   return true;
 }
+
 //Map type funcion
 Map myMapFunc() {
   return {};
+}
+
+//Map type funcion
+List myLIstFunc() {
+  List addList = [];
+  return addList;
 }
