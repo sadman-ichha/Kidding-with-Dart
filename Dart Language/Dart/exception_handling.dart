@@ -1,5 +1,5 @@
 void main() {
-  // exception handling- (try,on,catch,stack-trace,finally)
+  // exception handling- (try,on,catch,line,stack-trace,finally)
 
   // format exception
   try {
@@ -21,5 +21,14 @@ void main() {
     print(e);
   } finally {
     print("Finally Keyword Always Executed");
+  }
+
+  //RangeError (index): Invalid value: Valid value range is empty: 0
+  try {
+    List myList = [];
+    print(myList[0]);
+  } catch (e, l) {
+    print(e.toString());
+    print(l.toString());
   }
 }
