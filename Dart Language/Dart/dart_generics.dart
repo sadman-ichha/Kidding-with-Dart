@@ -14,4 +14,5 @@ void main() {
   List<dynamic> myList1 = ["Sadman", 50, 60.0, true];
 
   //Cascade notation ...
+  //Access oparator / Single dot oparator .
 }

@@ -7,8 +7,9 @@ void main() {
   ];
 // for loops
   for (int i = 0; i < nameList.length; i++) {
-    print(nameList[i]);
+    print("This is For loops : ${nameList[i]}");
   }
+
   // for + continue & break
   for (int index = 0; index <= 10; index++) {
     if (index == 4) {
@@ -25,7 +26,7 @@ void main() {
   }
 
   // for each loop
-  var forEachList = [
+  List<Map<String, dynamic>> forEachList = [
     {"name": "Sadman"},
     {"name": "Ichha"},
     {"name": "Tom"},

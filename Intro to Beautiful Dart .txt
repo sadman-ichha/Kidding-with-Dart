@@ -17,3 +17,11 @@ Flutter: Dart is the language used to develop Flutter, a popular open-source fra
 
 Overall, Dart is a versatile language that is well-suited for a wide range of applications. Its combination of strong typing, garbage collection, and support for asynchronous programming makes it a popular choice for web and mobile app development, while its support for AOT compilation makes it a viable option for server-side programming as well.
  
+  //Cascade notation ...
+  //Access oparator / Single dot oparator .
+
+  // anonymous function, lambda, or closure 
+  no name function 
+    (parameter_list) {  
+        statement(s)  
+      }  
