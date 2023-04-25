@@ -1,10 +1,5 @@
 void main() {
-  List nameList = [
-    "Sadman",
-    "Ichha",
-    "Tom",
-    "Oggy",
-  ];
+  List<String> nameList = ["Sadman", "Ichha", "Tom", "Oggy"];
 // for loops
   for (int i = 0; i < nameList.length; i++) {
     print("This is For loops : ${nameList[i]}");
@@ -42,5 +37,25 @@ void main() {
     print(i);
     i++;
   }
-  // do while
+  // this Func
+  dartLoops();
+}
+
+void dartLoops() {
+  List<String> developerList = ["Jon", "Jack", "Rose", "Tom"];
+  // For loops
+  for (var i = 0; i < developerList.length; i++) {
+    //print(developerList[i]);
+  }
+  // forEach loops
+
+  //for in loops with if statement
+  for (var name in developerList) {
+    // print(name);
+    if (name == "Jacks") {
+      print("This is if condition: $name");
+    } else if (name.contains("Tom")) {
+      print("This is if condition: $name");
+    }
+  }
 }
